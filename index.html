@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAISON | Architectural Kitchens & Bespoke Interiors</title>
+    <meta name="description" content="Award-winning custom kitchen design. Transforming homes with Scandi-Luxe aesthetics and master craftsmanship.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="scroll-progress" id="progress-bar"></div>
+
+    <nav class="nav-fixed">
+        <div class="nav-wrapper">
+            <a href="#" class="logo">MAISON<span class="dot">.</span></a>
+            <ul class="menu-desktop">
+                <li><a href="#services">Expertise</a></li>
+                <li><a href="#gallery">Collection</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#team">Studio</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <a href="#contact" class="btn-outlined">Book Consultation</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-up">
+            <span class="eyebrow">Architectural Interiors — Est. 2024</span>
+            <h1>Designed for Life.<br>Built for Eternity.</h1>
+            <p>We blend Scandinavian minimalism with robust craftsmanship to create kitchens that define the modern home.</p>
+            <div class="hero-actions">
+                <a href="#contact" class="btn-solid">Start Your Project</a>
+                <a href="#gallery" class="link-arrow">View The Collection →</a>
+            </div>
+        </div>
+        <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2000&auto=format&fit=crop');"></div>
+    </header>
+
+    <main>
+        <section class="stats-section">
+            <div class="container stats-grid">
+                <div class="stat-item reveal">
+                    <span class="stat-number" data-target="150">0</span>
+                    <span class="stat-label">Projects Completed</span>
+                </div>
+                <div class="stat-item reveal delay-100">
+                    <span class="stat-number" data-target="12">0</span>
+                    <span class="stat-label">Design Awards</span>
+                </div>
+                <div class="stat-item reveal delay-200">
+                    <span class="stat-number" data-target="100">0</span>%
+                    <span class="stat-label">Satisfaction Rate</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>Our Expertise</h2>
+                    <p>Beyond cabinetry. A holistic approach to interior architecture.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card reveal">
+                        <div class="icon">📐</div>
+                        <h3>Spatial Planning</h3>
+                        <p>We reconfigure walls, windows, and flows to maximize light and usability before a single cabinet is placed.</p>
+                    </div>
+                    <div class="service-card reveal delay-100">
+                        <div class="icon">🔨</div>
+                        <h3>Bespoke Joinery</h3>
+                        <p>Handcrafted in our local workshop using sustainable oak, walnut, and birch ply.</p>
+                    </div>
+                    <div class="service-card reveal delay-200">
+                        <div class="icon">💡</div>
+                        <h3>Lighting Design</h3>
+                        <p>Integrated LED systems and architectural lighting plans to set the perfect mood.</p>
+                    </div>
+                    <div class="service-card reveal">
+                        <div class="icon">💎</div>
+                        <h3>Stone Masonry</h3>
+                        <p>Precision-cut marble, quartz, and porcelain surfaces installed with seamless mitred edges.</p>
+                    </div>
+                    <div class="service-card reveal delay-100">
+                        <div class="icon">🔌</div>
+                        <h3>Smart Integration</h3>
+                        <p>App-controlled appliances and hidden charging stations for the connected home.</p>
+                    </div>
+                    <div class="service-card reveal delay-200">
+                        <div class="icon">🎨</div>
+                        <h3>Interior Styling</h3>
+                        <p>Final curation of furniture, art, and ceramics to complete the aesthetic.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       <section id="gallery" class="material-section">
+    <div class="split-screen">
+        <div class="material-content reveal">
+            <h2>Curated Materiality</h2>
+            <p>The difference is in the touch. Select a palette to visualize the texture.</p>
+            
+            <div class="palette-selector">
+                <button class="palette-btn active" 
+                    data-img="images/NORDIC.jpg" 
+                    data-title="The Nordic" 
+                    data-desc="White oiled oak, Carrara marble, and matte black fixtures.">
+                    <span class="dot" style="background:#757474"></span> The Nordic
+                </button>
+
+                <button class="palette-btn" 
+                    data-img="images/METALIC.jpg" 
+                    data-title="The Industrial"
+                    data-desc="Polished concrete, raw steel, and walnut accents.">
+                    <span class="dot" style="background:#1a1919"></span> The Industrial
+                </button>
+
+                <button class="palette-btn" 
+                    data-img="images/CLASSIC.jpg" 
+                    data-title="The Classic" 
+                    data-desc="Hand-painted shaker cabinetry in sage green with brass hardware.">
+                    <span class="dot" style="background:#8fa395"></span> The Classic
+                </button>
+            </div>
+
+            <div class="palette-info fade-in-text">
+                <h3 id="palette-title">The Nordic</h3>
+                <p id="palette-desc">White oiled oak, Carrara marble, and matte black fixtures.</p>
+            </div>
+        </div>
+        
+        <div class="material-image">
+            <img id="main-display" src="images/NORDIC.jpg" alt="Luxury Kitchen Detail">
+        </div>
+    </div>
+</section>
+
+        <section id="process" class="process-timeline-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>The Journey</h2>
+                    <p>From sketch to Sunday breakfast.</p>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item reveal">
+                        <span class="step-num">01</span>
+                        <div class="step-content">
+                            <h3>Consultation</h3>
+                            <p>We meet in your home to measure, discuss needs, and establish a budget framework.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item reveal delay-100">
+                        <span class="step-num">02</span>
+                        <div class="step-content">
+                            <h3>3D Visualization</h3>
+                            <p>Receive photorealistic renders and material samples to approve every detail.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item reveal delay-200">
+                        <span class="step-num">03</span>
+                        <div class="step-content">
+                            <h3>Fabrication</h3>
+                            <p>Your kitchen is built in our workshop. You are invited to inspect progress.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item reveal delay-300">
+                        <span class="step-num">04</span>
+                        <div class="step-content">
+                            <h3>Installation</h3>
+                            <p>Our team installs the kitchen in 3-5 days, leaving your home spotless.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="transformation-section">
+            <div class="container reveal">
+                <h2>Real Transformations</h2>
+                <div class="ba-wrapper">
+                    <div class="ba-image-container modified">
+                        <img src="images/AFTER.png" alt="Kitchen After">
+                        <span class="badge">After</span>
+                    </div>
+                    <div class="ba-image-container original" id="original-overlay">
+                        <img src="images/BEFORE.jpg" alt="Kitchen Before">
+                        <span class="badge">Before</span>
+                    </div>
+                    <input type="range" min="0" max="100" value="50" class="ba-slider" id="ba-slider">
+                    <div class="ba-handle" id="ba-handle">↔</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="faq-section bg-light">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>Frequently Asked Questions</h2>
+                </div>
+                <div class="accordion reveal">
+                    <details>
+                        <summary>What is the typical timeline for a project?</summary>
+                        <p>From design approval to final installation, our typical timeline is 8-12 weeks. Custom materials may extend this.</p>
+                    </details>
+                    <details>
+                        <summary>Do you handle plumbing and electrical?</summary>
+                        <p>Yes. We offer a "Turnkey" service where we manage all tradespeople, or we can work alongside your chosen contractors.</p>
+                    </details>
+                    <details>
+                        <summary>What is the starting budget for a Maison kitchen?</summary>
+                        <p>Our bespoke projects typically start at $35,000, including design, fabrication, and installation.</p>
+                    </details>
+                    <details>
+                        <summary>Do you offer a warranty?</summary>
+                        <p>Yes, all our cabinetry comes with a 10-year craftsmanship warranty, and hardware carries a lifetime guarantee.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="team-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>The Studio</h2>
+                </div>
+                <div class="team-grid">
+                    <div class="team-card reveal">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&h=400&fit=crop" alt="Lead Architect">
+                        <h3>Sarah Jenkins</h3>
+                        <span>Lead Architect</span>
+                    </div>
+                    <div class="team-card reveal delay-100">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=400&h=400&fit=crop" alt="Master Joiner">
+                        <h3>David Ross</h3>
+                        <span>Head of Joinery</span>
+                    </div>
+                    <div class="team-card reveal delay-200">
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=400&h=400&fit=crop" alt="Interior Designer">
+                        <h3>Elena Rodriguez</h3>
+                        <span>Interior Stylist</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section-large">
+            <div class="contact-wrapper">
+                <div class="contact-info reveal">
+                    <h2>Start the Conversation</h2>
+                    <p class="lead">Ready to elevate your home? Fill out the form or visit our showroom.</p>
+                    
+                    <div class="contact-details">
+                        <div class="detail-item">
+                            <strong>Showroom</strong>
+                            <p>123 Design District<br>New York, NY 10012</p>
+                        </div>
+                        <div class="detail-item">
+                            <strong>Contact</strong>
+                            <p>+1 (555) 019-2834<br>hello@maison-interiors.com</p>
+                        </div>
+                    </div>
+
+                    <div class="map-container">
+                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1422937950147!2d-73.9873196845941!3d40.75889497932681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" width="100%" height="100%" style="border:0; filter: grayscale(1);" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper reveal delay-100">
+                    <form id="quote-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>First Name</label>
+                                <input type="text" id="fname" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Last Name</label>
+                                <input type="text" id="lname" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Project Type</label>
+                            <select id="type">
+                                <option value="Full Renovation">Full Renovation</option>
+                                <option value="New Build">New Build</option>
+                                <option value="Cabinetry Only">Cabinetry Only</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Estimated Budget</label>
+                            <select id="budget">
+                                <option value="$30k - $50k">$30k - $50k</option>
+                                <option value="$50k - $80k">$50k - $80k</option>
+                                <option value="$80k+">$80k+</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn-block">Send via WhatsApp <span class="arrow">→</span></button>
+                        <p class="form-note">We typically reply within 2 hours.</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="#" class="logo-footer">MAISON.</a>
+                <p>Creating spaces that inspire.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Menu</h4>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Portfolio</a></li>
+                    <li><a href="#team">Team</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Social</h4>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Pinterest</a></li>
+                    <li><a href="#">Houzz</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 MAISON Interiors. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
